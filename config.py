@@ -5,8 +5,8 @@ load_dotenv()
 
 
 class Config:
-    BOT_TOKEN = os.getenv("BOT_TOKEN")
-    ADMIN_IDS = [int(x) for x in os.getenv("ADMIN_IDS", "").split(",") if x]
+    BOT_TOKEN = os.getenv("8117937238:AAHXEan6MVzChqmBNV5XwsV6eJy12XLXItg")
+    ADMIN_IDS = [int(x) for x in os.getenv("6843366861", "").split(",") if x]
 
 
     MAX_PHOTO_SIZE = 20 * 1024 * 1024  # 20 MB
